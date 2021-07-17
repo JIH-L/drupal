@@ -38,8 +38,6 @@
 /.gitattributes
 /.htaccess
 /autoload.php
-/composer.json
-/composer.lock
 /example.gitignore
 /index.php
 /LICENSE.txt
@@ -47,3 +45,15 @@
 /robots.txt
 /update.php
 /web.config
+
+# Ignore non-custom parts of Drupal.
+/web/core
+/web/libraries
+/web/modules/contrib
+/web/profiles/contrib
+/web/themes/contrib
+/web/sites/default/files
+/web/sites/localDevelopment.services.yml
+
+# OS X
+.DS_Store
